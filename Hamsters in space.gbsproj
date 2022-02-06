@@ -169,8 +169,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "b72e1bd9-27f1-4764-80f6-9b30bbe6a4db",
-            "x": 124,
-            "y": 286,
+            "x": 749,
+            "y": 66,
             "actors": [],
             "triggers": [],
             "script": [
@@ -223,8 +223,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "77e5a8fe-573b-41e2-b77c-0342096360a0",
-            "x": 332,
-            "y": 283,
+            "x": 949,
+            "y": 66,
             "actors": [],
             "triggers": [],
             "script": [
@@ -277,8 +277,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "02d77d51-868b-4402-87a5-1c660301ca7a",
-            "x": 547,
-            "y": 283,
+            "x": 1128,
+            "y": 64,
             "actors": [],
             "triggers": [],
             "script": [
@@ -332,7 +332,7 @@
             "autoFadeSpeed": 1,
             "id": "7cc5ea13-4997-4b43-9d5e-852a45ecb31c",
             "x": 125,
-            "y": 501,
+            "y": 298,
             "actors": [],
             "triggers": [],
             "script": [
@@ -385,8 +385,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "bc469675-bfcd-4e6c-94bb-749aaf9c7b2c",
-            "x": 317,
-            "y": 501,
+            "x": 323,
+            "y": 307,
             "actors": [],
             "triggers": [],
             "script": [
@@ -439,8 +439,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "047190f3-9c90-449d-82f6-cf4662291c82",
-            "x": 539,
-            "y": 497,
+            "x": 524,
+            "y": 301,
             "actors": [],
             "triggers": [],
             "script": [
@@ -503,8 +503,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "3ee430bc-4c88-4b4d-88b3-d6c0a344a1e4",
-            "x": 119,
-            "y": 704,
+            "x": 739,
+            "y": 301,
             "actors": [],
             "triggers": [],
             "script": [
@@ -577,8 +577,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "375ce452-ba5c-4a4c-ab6d-b709751b14d4",
-            "x": 327,
-            "y": 706,
+            "x": 933,
+            "y": 300,
             "actors": [],
             "triggers": [],
             "script": [
@@ -631,8 +631,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "ef878899-b991-4b43-9103-e3d6467a6af2",
-            "x": 541,
-            "y": 706,
+            "x": 1137,
+            "y": 296,
             "actors": [],
             "triggers": [],
             "script": [
@@ -659,7 +659,7 @@
                                 "args": {
                                     "text": [
                                         "Soldiers!",
-                                        "A time has come\nfor our trial!"
+                                        "A time of trial\nhas come!"
                                     ],
                                     "avatarId": ""
                                 },
@@ -696,8 +696,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "8f8ec8d3-9a32-4079-888b-5b7009f25100",
-            "x": 116,
-            "y": 907,
+            "x": 122,
+            "y": 536,
             "actors": [],
             "triggers": [],
             "script": [
@@ -760,8 +760,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "6dcace86-1fd0-4352-a5f5-3a1d62b121c3",
-            "x": 321,
-            "y": 910,
+            "x": 319,
+            "y": 538,
             "actors": [],
             "triggers": [],
             "script": [
@@ -826,8 +826,312 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "1b221361-371d-4f5d-8a0e-f8d486006115",
-            "x": 539,
-            "y": 910,
+            "x": 532,
+            "y": 534,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_FADE_IN",
+                    "args": {
+                        "speed": "2"
+                    },
+                    "id": "c290a02c-53e8-404d-9c6a-ad37f5502c4d"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Our offspring can\ngrow and play in",
+                                        "safety. But this\nhas its price..."
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "d2a64db3-8339-4941-9843-0cf8f10d889b"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "5985d2cb-17e8-4e44-8a4a-5d4f2b1c83ec",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "4917fb76-a6f8-4db3-ad48-4f631650979a"
+                            }
+                        ]
+                    },
+                    "id": "bbc5422f-41eb-4c33-93b0-8b8e182e292c"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 5-1",
+            "backgroundId": "19d2c864-ad06-41ff-8375-da1cc6c8c51f",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "5985d2cb-17e8-4e44-8a4a-5d4f2b1c83ec",
+            "x": 749,
+            "y": 528,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_FADE_IN",
+                    "args": {
+                        "speed": "2"
+                    },
+                    "id": "76f19b76-b423-4fc6-863b-9421e510cc49"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "0530fcb9-a366-43b2-b421-b86370f359ef",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "1b24f7a1-312b-41fe-a7f7-41d72c542c4d"
+                            }
+                        ]
+                    },
+                    "id": "1930b4da-05cb-42ce-93da-cb7b7695cc48"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 5-2",
+            "backgroundId": "9da1ad61-93a7-4069-9a27-f1225d1dd294",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "0530fcb9-a366-43b2-b421-b86370f359ef",
+            "x": 940,
+            "y": 529,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_FADE_IN",
+                    "args": {
+                        "speed": "2"
+                    },
+                    "id": "352da411-a506-40f4-914f-f60b8add5b53"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "This is why space\nbases came to be.",
+                                        "We are Dzungaria's\neyes and ears and",
+                                        "the first defence\nline in the case",
+                                        "of an potential\nassault!"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "952d5321-a771-4301-b08b-39efa72d76aa"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "d9851599-e751-40b9-b4ed-024a86197d17",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "628a5ef4-7493-470f-8fb4-b902053611a2"
+                            }
+                        ]
+                    },
+                    "id": "fe36530f-794c-4441-8dc1-730983d5242d"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 5-3",
+            "backgroundId": "6bfe92b8-3e0b-432e-8f32-672ddc2c5104",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "d9851599-e751-40b9-b4ed-024a86197d17",
+            "x": 1130,
+            "y": 529,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_FADE_IN",
+                    "args": {
+                        "speed": "2"
+                    },
+                    "id": "3ff2e416-c052-486d-9c15-54e5c6b043d6"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "A strategic\nrampart in orbit."
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "1ae844d6-29c4-4c25-9bac-e3d5448f2127"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "ea4d9eab-0f30-4307-ae4e-5394e774df19",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "566fc4df-50a0-4130-8660-fb31f0c016ce"
+                            }
+                        ]
+                    },
+                    "id": "e97bc90c-5ac5-4727-b822-347c5062c056"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Credits",
+            "backgroundId": "904e4042-bdf9-4ddb-b09b-a4a3cf26013f",
+            "width": 20,
+            "height": 81,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "cea42790-ac6b-4af1-b733-314bcba6887f",
+            "x": 1503,
+            "y": 66,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_CAMERA_MOVE_TO",
+                    "args": {
+                        "x": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 49
+                        },
+                        "speed": 3
+                    },
+                    "id": "2745330d-af12-4625-8768-beaefa474594"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1
+                    },
+                    "id": "4c7e100b-f5d5-4e27-b079-54b85da938d5"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "ea9c65d0-f2f8-4d96-a69d-16527e349c10",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "39a8354c-4d12-4df2-8c32-fc8ebe0807f1"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Interim",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "ea4d9eab-0f30-4307-ae4e-5394e774df19",
+            "x": 1318,
+            "y": 65,
             "actors": [],
             "triggers": [],
             "script": [
@@ -835,12 +1139,22 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Our offspring can\ngrow and play in",
-                            "safety. But this\nhas its price..."
+                            "This is it for\nthe demo version."
                         ],
                         "avatarId": ""
                     },
-                    "id": "22c74c8b-3811-406f-9942-6ff8c2c4dcdc"
+                    "id": "424db7e7-e28f-4693-bb6e-8aff177cef5f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "cea42790-ac6b-4af1-b733-314bcba6887f",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "55b359e4-63b3-4c44-929e-7d3f83985939"
                 }
             ],
             "playerHit1Script": [],
@@ -956,6 +1270,42 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "43.png"
+        },
+        {
+            "id": "19d2c864-ad06-41ff-8375-da1cc6c8c51f",
+            "name": "51",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "51.png"
+        },
+        {
+            "id": "9da1ad61-93a7-4069-9a27-f1225d1dd294",
+            "name": "52",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "52.png"
+        },
+        {
+            "id": "6bfe92b8-3e0b-432e-8f32-672ddc2c5104",
+            "name": "53",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "53.png"
+        },
+        {
+            "id": "904e4042-bdf9-4ddb-b09b-a4a3cf26013f",
+            "name": "credits",
+            "width": 20,
+            "height": 81,
+            "imageWidth": 160,
+            "imageHeight": 648,
+            "filename": "credits.png"
         },
         {
             "id": "1b4a46f0-3419-4d60-a967-a53c7dc1fccb",
@@ -1872,8 +2222,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 40,
+        "worldScrollX": 185,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
