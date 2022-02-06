@@ -1099,7 +1099,7 @@
                 {
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 0.5
+                        "time": 1
                     },
                     "id": "4c7e100b-f5d5-4e27-b079-54b85da938d5"
                 },
