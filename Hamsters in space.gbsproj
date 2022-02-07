@@ -1,11 +1,11 @@
 {
     "name": "Hamsters in space",
-    "author": "Bartek",
+    "author": "Bartek Biedrzycki",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
         {
-            "name": "Scene 1",
+            "name": "Logo",
             "backgroundId": "1b4a46f0-3419-4d60-a967-a53c7dc1fccb",
             "width": 20,
             "height": 18,
@@ -51,7 +51,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 2",
+            "name": "Manual",
             "backgroundId": "b25a0276-8bdd-466c-9341-9179792221c1",
             "width": 20,
             "height": 18,
@@ -74,30 +74,22 @@
                     "id": "6b742a04-ede8-4bbf-b451-28d3073a44e2"
                 },
                 {
-                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "command": "EVENT_WAIT",
                     "args": {
-                        "input": [
-                            "a"
-                        ],
-                        "override": true,
-                        "__scriptTabs": "press"
+                        "time": 2
                     },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "f4068f51-ac1d-43f4-a2e4-a142ea720e8b",
-                                    "x": 0,
-                                    "y": 0,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "eb0a3db1-5992-47ee-ad84-bb7e6a1a0636"
-                            }
-                        ]
+                    "id": "2db14f60-1b99-49ae-b88c-5382c4e8d928"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "f4068f51-ac1d-43f4-a2e4-a142ea720e8b",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
                     },
-                    "id": "5838ca41-2cd8-4979-bc69-bccf9cfeb57b"
+                    "id": "efb2c6ce-4c5f-4130-a470-5c27b8a362c5"
                 }
             ],
             "playerHit1Script": [],
@@ -105,7 +97,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 3",
+            "name": "Title",
             "backgroundId": "e3496ef7-49a7-43e6-8752-7b3e4d041484",
             "width": 20,
             "height": 18,
@@ -3984,7 +3976,7 @@
             "name": "Credits",
             "backgroundId": "904e4042-bdf9-4ddb-b09b-a4a3cf26013f",
             "width": 20,
-            "height": 81,
+            "height": 82,
             "type": "TOPDOWN",
             "paletteIds": [],
             "spritePaletteIds": [],
@@ -4005,7 +3997,7 @@
                         },
                         "y": {
                             "type": "number",
-                            "value": 49
+                            "value": 64
                         },
                         "speed": 3
                     },
@@ -5148,9 +5140,9 @@
             "id": "904e4042-bdf9-4ddb-b09b-a4a3cf26013f",
             "name": "credits",
             "width": 20,
-            "height": 81,
+            "height": 82,
             "imageWidth": 160,
-            "imageHeight": 648,
+            "imageHeight": 656,
             "filename": "credits.png",
             "tileColors": []
         },
@@ -6072,8 +6064,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 12,
-        "worldScrollY": 115,
+        "worldScrollX": 262,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
