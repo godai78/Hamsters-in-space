@@ -1,5 +1,7 @@
 # Hamsters in space
 
+![](https://user-images.githubusercontent.com/68123541/153057496-a4be6af9-50e2-40c3-8f50-2c0d16513bfe.png)
+
 A Game Boy art cartridge.
 
 You talk about sacrifice? These hamsters know sacrifice.
