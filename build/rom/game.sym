@@ -375,7 +375,7 @@
 00:000F ___bank_scene_50_collisions
 00:000F ___bank_scene_5_collisions
 00:000F ___bank_script_input_41
-00:000F ___bank_script_s2_init
+00:000F ___bank_script_s1_init
 00:000F ___bank_tileset_34
 00:0010 ___bank_background_10
 00:0010 ___bank_scene_51_collisions
@@ -609,7 +609,6 @@
 00:0011 ___bank_script_s17_init
 00:0011 ___bank_script_s18_init
 00:0011 ___bank_script_s19_init
-00:0011 ___bank_script_s1_init
 00:0011 ___bank_script_s20_init
 00:0011 ___bank_script_s21_init
 00:0011 ___bank_script_s22_init
@@ -620,6 +619,7 @@
 00:0011 ___bank_script_s27_init
 00:0011 ___bank_script_s28_init
 00:0011 ___bank_script_s29_init
+00:0011 ___bank_script_s2_init
 00:0011 ___bank_script_s30_init
 00:0011 ___bank_script_s31_init
 00:0011 ___bank_script_s32_init
@@ -1587,7 +1587,7 @@
 0F:7840 ___func_scene_50_collisions
 0F:7840 _scene_50_collisions
 0F:79A8 _script_input_41
-0F:7A84 _script_s2_init
+0F:7A84 _script_s1_init
 0F:7A9E ___func_tileset_34
 0F:7A9E _tileset_34
 08:4000 ___func_scene_18_collisions

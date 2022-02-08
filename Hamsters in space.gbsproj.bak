@@ -4521,7 +4521,7 @@
                                 "args": {
                                     "text": [
                                         "Made it on purpose,\nsarge? We may never",
-                                        "Know. But we will also\nnever forget the",
+                                        "know. But we will also\nnever forget the",
                                         "involvement of the\nRoborovskis!"
                                     ],
                                     "avatarId": ""
@@ -6306,7 +6306,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 900,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
