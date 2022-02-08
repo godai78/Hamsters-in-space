@@ -71,25 +71,33 @@
                     "args": {
                         "speed": "2"
                     },
-                    "id": "6b742a04-ede8-4bbf-b451-28d3073a44e2"
+                    "id": "7652263e-8e51-4556-bfdc-32c1035ca8ea"
                 },
                 {
-                    "command": "EVENT_WAIT",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "time": 2
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
                     },
-                    "id": "2db14f60-1b99-49ae-b88c-5382c4e8d928"
-                },
-                {
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "b72e1bd9-27f1-4764-80f6-9b30bbe6a4db",
-                        "x": 0,
-                        "y": 0,
-                        "direction": "",
-                        "fadeSpeed": "2"
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "b72e1bd9-27f1-4764-80f6-9b30bbe6a4db",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "7dc8113b-25e6-4b28-90d7-bf71e607ef8d"
+                            }
+                        ]
                     },
-                    "id": "efb2c6ce-4c5f-4130-a470-5c27b8a362c5"
+                    "id": "f8e64045-c5c7-4caa-9b29-27895afa88ce"
                 }
             ],
             "playerHit1Script": [],
@@ -5314,7 +5322,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "151.png"
+            "filename": "151.png",
+            "tileColors": []
         },
         {
             "id": "021f3393-a228-4578-b456-a6768dbe2abe",
@@ -5323,7 +5332,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "152.png"
+            "filename": "152.png",
+            "tileColors": []
         },
         {
             "id": "55acd1e8-0261-4985-a3ca-f3fc576a06cc",
@@ -5332,7 +5342,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "153.png"
+            "filename": "153.png",
+            "tileColors": []
         },
         {
             "id": "e15af2cc-0671-4bd9-86ac-e4fdb14ea43d",
@@ -5341,7 +5352,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "161.png"
+            "filename": "161.png",
+            "tileColors": []
         },
         {
             "id": "b87397f5-bc70-4ea3-8ebf-82491fbea006",
@@ -5350,7 +5362,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "162.png"
+            "filename": "162.png",
+            "tileColors": []
         },
         {
             "id": "462e0a9e-712e-4a57-a5c4-4c6d00638bcf",
@@ -5359,7 +5372,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "163.png"
+            "filename": "163.png",
+            "tileColors": []
         },
         {
             "id": "904e4042-bdf9-4ddb-b09b-a4a3cf26013f",
@@ -5378,7 +5392,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "dedication.png"
+            "filename": "dedication.png",
+            "tileColors": []
         },
         {
             "id": "1b4a46f0-3419-4d60-a967-a53c7dc1fccb",

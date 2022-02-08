@@ -491,7 +491,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000F  ___bank_scene_50_collisions        scene_50_collisions
      0000000F  ___bank_scene_5_collisions         scene_5_collisions
      0000000F  ___bank_script_input_41            script_input_41
-     0000000F  ___bank_script_s2_init             script_s2_init
+     0000000F  ___bank_script_s1_init             script_s1_init
      0000000F  ___bank_tileset_34                 tileset_34
      00000010  ___bank_background_10              background_10
      00000010  ___bank_scene_51_collisions        scene_51_collisions
@@ -763,7 +763,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000011  ___bank_script_s17_init            script_s17_init
      00000011  ___bank_script_s18_init            script_s18_init
      00000011  ___bank_script_s19_init            script_s19_init
-     00000011  ___bank_script_s1_init             script_s1_init
      00000011  ___bank_script_s20_init            script_s20_init
      00000011  ___bank_script_s21_init            script_s21_init
      00000011  ___bank_script_s22_init            script_s22_init
@@ -774,6 +773,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000011  ___bank_script_s27_init            script_s27_init
      00000011  ___bank_script_s28_init            script_s28_init
      00000011  ___bank_script_s29_init            script_s29_init
+     00000011  ___bank_script_s2_init             script_s2_init
      00000011  ___bank_script_s30_init            script_s30_init
      00000011  ___bank_script_s31_init            script_s31_init
      00000011  ___bank_script_s32_init            script_s32_init
@@ -836,7 +836,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      000027BF  l__CODE_1                       
      00002A11  l__CODE_3                       
      00003000  _rROMB1                            
-     00003136  l__CODE_17                      
+     000030FC  l__CODE_17                      
 ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
 Hexadecimal  [32-Bits]
 
@@ -1721,7 +1721,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1780,7 +1780,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1840,7 +1840,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1900,7 +1900,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1960,7 +1960,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2020,7 +2020,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2051,83 +2051,83 @@ _CODE_17                            00114000    00003136 =       12598. bytes (R
      001161C2  _script_input_8                    script_input_8
      00116253  _script_input_9                    script_input_9
      00116282  _script_s0_init                    script_s0_init
-     001162CC  _script_s1_init                    script_s1_init
-     00116320  _script_s12_init                   script_s12_init
-     00116342  _script_s13_init                   script_s13_init
-     00116364  _script_s14_init                   script_s14_init
-     00116386  _script_s15_init                   script_s15_init
-     001163A8  _script_s16_init                   script_s16_init
-     001163CA  _script_s17_init                   script_s17_init
-     001163EC  _script_s18_init                   script_s18_init
-     0011644E  _script_s19_init                   script_s19_init
-     00116470  _script_s20_init                   script_s20_init
-     00116492  _script_s21_init                   script_s21_init
-     001164B4  _script_s22_init                   script_s22_init
-     001164D6  _script_s23_init                   script_s23_init
-     001164F8  _script_s24_init                   script_s24_init
-     0011651A  _script_s25_init                   script_s25_init
-     0011653C  _script_s26_init                   script_s26_init
-     0011655E  _script_s27_init                   script_s27_init
-     00116580  _script_s28_init                   script_s28_init
-     001165A2  _script_s29_init                   script_s29_init
-     001165C4  _script_s3_init                    script_s3_init
-     001165DE  _script_s30_init                   script_s30_init
-     00116600  _script_s31_init                   script_s31_init
-     00116622  _script_s32_init                   script_s32_init
-     00116644  _script_s33_init                   script_s33_init
+     001162CC  _script_s12_init                   script_s12_init
+     001162EE  _script_s13_init                   script_s13_init
+     00116310  _script_s14_init                   script_s14_init
+     00116332  _script_s15_init                   script_s15_init
+     00116354  _script_s16_init                   script_s16_init
+     00116376  _script_s17_init                   script_s17_init
+     00116398  _script_s18_init                   script_s18_init
+     001163FA  _script_s19_init                   script_s19_init
+     0011641C  _script_s2_init                    script_s2_init
+     00116436  _script_s20_init                   script_s20_init
+     00116458  _script_s21_init                   script_s21_init
+     0011647A  _script_s22_init                   script_s22_init
+     0011649C  _script_s23_init                   script_s23_init
+     001164BE  _script_s24_init                   script_s24_init
+     001164E0  _script_s25_init                   script_s25_init
+     00116502  _script_s26_init                   script_s26_init
+     00116524  _script_s27_init                   script_s27_init
+     00116546  _script_s28_init                   script_s28_init
+     00116568  _script_s29_init                   script_s29_init
+     0011658A  _script_s3_init                    script_s3_init
+     001165A4  _script_s30_init                   script_s30_init
+     001165C6  _script_s31_init                   script_s31_init
+     001165E8  _script_s32_init                   script_s32_init
+     0011660A  _script_s33_init                   script_s33_init
 ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_17                            00114000    00003136 =       12598. bytes (REL,CON)
+_CODE_17                            00114000    000030FC =       12540. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00116666  _script_s34_init                   script_s34_init
-     00116688  _script_s35_init                   script_s35_init
-     001166AA  _script_s36_init                   script_s36_init
-     001166CC  _script_s37_init                   script_s37_init
-     001166EE  _script_s38_init                   script_s38_init
-     00116710  _script_s39_init                   script_s39_init
-     00116732  _script_s4_init                    script_s4_init
-     00116754  _script_s40_init                   script_s40_init
-     00116776  _script_s41_init                   script_s41_init
-     00116798  _script_s42_init                   script_s42_init
-     001167BA  _script_s43_init                   script_s43_init
-     001167DC  _script_s44_init                   script_s44_init
-     001167FE  _script_s45_init                   script_s45_init
-     00116820  _script_s46_init                   script_s46_init
-     00116842  _script_s47_init                   script_s47_init
-     00116864  _script_s48_init                   script_s48_init
-     00116886  _script_s49_init                   script_s49_init
-     001168A8  _script_s5_init                    script_s5_init
-     001168CA  _script_s50_init                   script_s50_init
-     001168EC  _script_s51_init                   script_s51_init
-     0011690E  _script_s52_init                   script_s52_init
-     00116962  _script_s6_init                    script_s6_init
-     00116984  _script_s7_init                    script_s7_init
-     001169A6  _script_s8_init                    script_s8_init
-     001169C8  _script_s9_init                    script_s9_init
-     001169EA  ___func_spritesheet_0              spritesheet_0
-     001169EA  _spritesheet_0_metasprite_0        spritesheet_0
-     001169EE  _spritesheet_0_metasprites         spritesheet_0
-     001169F0  _spritesheet_0_animations          spritesheet_0
-     00116A00  _spritesheet_0_animations_lookup   spritesheet_0
-     00116A02  _spritesheet_0                     spritesheet_0
-     00116A15  _spritesheet_none_metasprite       spritesheet_none
-     00116A19  _spritesheet_none_metasprites      spritesheet_none
-     00116A1B  _spritesheet_none                  spritesheet_none
-     00116A2E  ___func_tilemap_5                  tilemap_5
-     00116A2E  _tilemap_5                         tilemap_5
-     00116B96  ___func_tilemap_6                  tilemap_6
-     00116B96  _tilemap_6                         tilemap_6
-     00116CFE  ___func_tilemap_7                  tilemap_7
-     00116CFE  _tilemap_7                         tilemap_7
-     00116E66  ___func_tilemap_8                  tilemap_8
-     00116E66  _tilemap_8                         tilemap_8
-     00116FCE  ___func_tilemap_9                  tilemap_9
-     00116FCE  _tilemap_9                         tilemap_9
+     0011662C  _script_s34_init                   script_s34_init
+     0011664E  _script_s35_init                   script_s35_init
+     00116670  _script_s36_init                   script_s36_init
+     00116692  _script_s37_init                   script_s37_init
+     001166B4  _script_s38_init                   script_s38_init
+     001166D6  _script_s39_init                   script_s39_init
+     001166F8  _script_s4_init                    script_s4_init
+     0011671A  _script_s40_init                   script_s40_init
+     0011673C  _script_s41_init                   script_s41_init
+     0011675E  _script_s42_init                   script_s42_init
+     00116780  _script_s43_init                   script_s43_init
+     001167A2  _script_s44_init                   script_s44_init
+     001167C4  _script_s45_init                   script_s45_init
+     001167E6  _script_s46_init                   script_s46_init
+     00116808  _script_s47_init                   script_s47_init
+     0011682A  _script_s48_init                   script_s48_init
+     0011684C  _script_s49_init                   script_s49_init
+     0011686E  _script_s5_init                    script_s5_init
+     00116890  _script_s50_init                   script_s50_init
+     001168B2  _script_s51_init                   script_s51_init
+     001168D4  _script_s52_init                   script_s52_init
+     00116928  _script_s6_init                    script_s6_init
+     0011694A  _script_s7_init                    script_s7_init
+     0011696C  _script_s8_init                    script_s8_init
+     0011698E  _script_s9_init                    script_s9_init
+     001169B0  ___func_spritesheet_0              spritesheet_0
+     001169B0  _spritesheet_0_metasprite_0        spritesheet_0
+     001169B4  _spritesheet_0_metasprites         spritesheet_0
+     001169B6  _spritesheet_0_animations          spritesheet_0
+     001169C6  _spritesheet_0_animations_lookup   spritesheet_0
+     001169C8  _spritesheet_0                     spritesheet_0
+     001169DB  _spritesheet_none_metasprite       spritesheet_none
+     001169DF  _spritesheet_none_metasprites      spritesheet_none
+     001169E1  _spritesheet_none                  spritesheet_none
+     001169F4  ___func_tilemap_5                  tilemap_5
+     001169F4  _tilemap_5                         tilemap_5
+     00116B5C  ___func_tilemap_6                  tilemap_6
+     00116B5C  _tilemap_6                         tilemap_6
+     00116CC4  ___func_tilemap_7                  tilemap_7
+     00116CC4  _tilemap_7                         tilemap_7
+     00116E2C  ___func_tilemap_8                  tilemap_8
+     00116E2C  _tilemap_8                         tilemap_8
+     00116F94  ___func_tilemap_9                  tilemap_9
+     00116F94  _tilemap_9                         tilemap_9
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
 Hexadecimal  [32-Bits]
@@ -2803,7 +2803,7 @@ _CODE_15                            000F4000    00004000 =       16384. bytes (R
      000F7840  ___func_scene_50_collisions        scene_50_collisions
      000F7840  _scene_50_collisions               scene_50_collisions
      000F79A8  _script_input_41                   script_input_41
-     000F7A84  _script_s2_init                    script_s2_init
+     000F7A84  _script_s1_init                    script_s1_init
      000F7A9E  ___func_tileset_34                 tileset_34
      000F7A9E  _tileset_34                        tileset_34
 
