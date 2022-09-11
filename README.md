@@ -9,3 +9,5 @@ When danger appears in orbit over Dzungaria, the crew of the Wheel V orbital bas
 A comic book about love for the homeland and sacrifice, set in the black cosmic void.The universe has never been so fluffy and dangerous at the same time, but remember: in space no one will hear your squeaks...
 
 This is the Game Boy (original) version of the 2019 short comic novella "Hamsters in space" by Bartek Biedrzycki.
+
+All the art and story is copyrighted.
